@@ -1,4 +1,6 @@
-﻿internal sealed class InputProvider
+﻿namespace Day01;
+
+internal sealed class InputProvider
 {
     internal static string GetInput()
     {
