@@ -1,4 +1,4 @@
-﻿namespace Day03;
+﻿namespace Day04;
 
 internal sealed class InputProvider
 {

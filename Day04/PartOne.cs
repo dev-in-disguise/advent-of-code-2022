@@ -1,4 +1,4 @@
-﻿namespace Day03;
+﻿namespace Day04;
 
 internal sealed class PartOne
 {
@@ -7,7 +7,7 @@ internal sealed class PartOne
         string[] pairings = InputProvider.GetInput().Split(Environment.NewLine);
         int irrelevantElveCount = 0;
 
-        foreach(string pairing in pairings)
+        foreach (string pairing in pairings)
         {
             string[] elves = pairing.Split(',');
 
@@ -16,7 +16,7 @@ internal sealed class PartOne
 
             int intersectCount = elveOneSections.Intersect(elveTwoSections).Count();
 
-            if(intersectCount == elveOneSections.Count() || intersectCount == elveTwoSections.Count())
+            if (intersectCount == elveOneSections.Count() || intersectCount == elveTwoSections.Count())
             {
                 irrelevantElveCount++;
             }

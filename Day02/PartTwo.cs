@@ -10,7 +10,7 @@ internal sealed class PartTwo
         foreach (string predictionInput in input.Split(Environment.NewLine))
         {
             var gamePrediction = new GamePrediction(predictionInput).Parse();
-            
+
             DrawType myDraw = CalculateMyDraw(gamePrediction.DrawResult, gamePrediction.OpponentDraw);
             Score score = new(myDraw, gamePrediction.DrawResult);
 
