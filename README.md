@@ -10,7 +10,7 @@ of riddles you solve with code
 Merry Christmas Advent of Code
 ```
 
-The annual fun has begun to solve the 24 riddles in the [Advent of Code](https://adventofcode.com/) challenge. 
+The annual fun has begun to solve the 25 riddles in the [Advent of Code](https://adventofcode.com/) challenge. 
 
 In this repo I'll tackle the challenge in 3 stages:
 
