@@ -7,9 +7,9 @@ internal sealed class PartTwo
         string[] rucksacks = InputProvider.GetInput().Split(Environment.NewLine);
         int totalPriority = 0;
 
-        for (int i = 0; i < rucksacks.Length; i+=3)
+        for (int i = 0; i < rucksacks.Length; i += 3)
         {
-            var result = rucksacks[i].Intersect(rucksacks[i+1]).Intersect(rucksacks[i+2]);
+            var result = rucksacks[i].Intersect(rucksacks[i + 1]).Intersect(rucksacks[i + 2]);
 
             foreach (char item in result)
             {
